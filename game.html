@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Old Maid Card game</title>
+        <script src="oldMaid.js"></script>
+        <style>
+            html{
+                background-color: lightblue;
+            }
+            div.start{
+                text-align: center;
+                position: absolute;
+                left: 50%;
+                top: 3%;
+                transform: translate(-50%, -50%);
+                margin: 0 auto;
+            }
+            div.back{
+                text-align: center;
+                position: absolute;
+                left: 50%;
+                bottom: 5%;
+                transform: translate(-50%, -50%);
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="start">
+            <button onclick="hehe()">START GAME</button>
+        </div>
+ 
+        <div class="container" id="board"></div>
+ 
+        <div class="back">
+            <button onclick="history.back()">
+                GO BACK TO HOMEPAGE
+            </button>
+        </div>
+    </body>
+</html>
