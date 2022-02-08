@@ -64,10 +64,10 @@ var dict = {
     "9S" : "https://deckofcardsapi.com/static/img/9S.png",
     "9D" : "https://deckofcardsapi.com/static/img/9D.png",
  
-    "10H" : "https://deckofcardsapi.com/static/img/10H.png",
-    "10C" : "https://deckofcardsapi.com/static/img/10C.png",
-    "10S" : "https://deckofcardsapi.com/static/img/10S.png",
-    "10D" : "https://deckofcardsapi.com/static/img/10D.png",
+    "0H" : "https://deckofcardsapi.com/static/img/0H.png",
+    "0C" : "https://deckofcardsapi.com/static/img/0C.png",
+    "0S" : "https://deckofcardsapi.com/static/img/0S.png",
+    "0D" : "https://deckofcardsapi.com/static/img/0D.png",
  
     "JH" : "https://deckofcardsapi.com/static/img/JH.png",
     "JC" : "https://deckofcardsapi.com/static/img/JC.png",
