@@ -26,11 +26,19 @@
     </head>
     <body>
         <div class="start">
-            <button onclick="hehe()">START GAME</button>
+            <button onclick="hehe()" id = "sart">START GAME</button>
+            <input type="text" placeholder="A,2,3,4,5,6,7,8,9,0,J,Q,K" id = "form">
+            <button id = "submit">Submit Pairs</button>
         </div>
  
-        <div class="container" id="board"></div>
- 
+        <div class="container" id="board" style="position: absolute; 
+        left: 150px; 
+        top: 120px; 
+        width: 1700px; 
+        height: 700px; 
+        background-color: #666">
+        </div>
+        
         <div class="back">
             <button onclick="history.back()">
                 GO BACK TO HOMEPAGE
