@@ -17,6 +17,7 @@ function shuffle(array) {
     return array;
   }
   
+  document.getElementById("sart").disabled = "true";
  
 var dict = {
     "AH" : "https://deckofcardsapi.com/static/img/AH.png",
@@ -148,20 +149,24 @@ var cards = [    "AH",
 "KC" ,
 "KS" ,
 "KD"];
+
+var images = [];
  
 shuffle(cards)
 Player1 = [];
 Player2 = [];
-for(var i = 0; i<26; i++){
+for(var i = 0; i<25; i++){
     Player1.push(cards[i]);
 }
-for(var i = 0; i<25; i++){
+for(var i = 0; i<26; i++){
     Player2.push(cards[i]);
 }
- 
 for(var i = 0; i<Player1.length; i++){
     var img = document.createElement("img");
+    img.style.height = '20%';
+    img.style.width = '20%';
     img.src = dict[Player1[i]];
+    images.push(img)
     document.getElementById("board").appendChild(img);
 }
  
